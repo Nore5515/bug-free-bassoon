@@ -1,8 +1,30 @@
-[gd_scene load_steps=2 format=3 uid="uid://bhqobi5o64wgf"]
+[gd_scene load_steps=3 format=3 uid="uid://bhqobi5o64wgf"]
 
 [ext_resource type="Script" path="res://Scripts/Deck.gd" id="1_a6vrg"]
+[ext_resource type="PackedScene" uid="uid://b45i4yc4gnfqa" path="res://Prefab/card.tscn" id="2_i4a51"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Node" type="Node" parent="."]
 script = ExtResource("1_a6vrg")
+
+[node name="Card" parent="." instance=ExtResource("2_i4a51")]
+position = Vector2(749, 437)
+
+[node name="Card2" parent="." instance=ExtResource("2_i4a51")]
+position = Vector2(444, 133)
+
+[node name="Card3" parent="." instance=ExtResource("2_i4a51")]
+position = Vector2(987, 368)
+
+[node name="Card4" parent="." instance=ExtResource("2_i4a51")]
+position = Vector2(512, 374)
+
+[node name="Card5" parent="." instance=ExtResource("2_i4a51")]
+position = Vector2(811, 263)
+
+[node name="Card6" parent="." instance=ExtResource("2_i4a51")]
+position = Vector2(271, 498)
+
+[node name="Card7" parent="." instance=ExtResource("2_i4a51")]
+position = Vector2(213, 270)
